@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:VisualLayoutTester"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas>
+        <DockPanel Height="46" Canvas.Left="10" Canvas.Top="63" Width="350">
+            <Label Content="Car Information" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+            <Calendar HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,-122"/>
+        </DockPanel>
+        <Button Content="Ok" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Height="20" Background="red" Foreground="White" Canvas.Left="275" Canvas.Top="26"/>
+
+    </Canvas>
 </Window>
